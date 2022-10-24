@@ -27,7 +27,7 @@ public class LoanCalculator {
     }
 
     public static void main(String[] args) {
-    	System.out.print("Please Enter an amount: ");
+    	//System.out.print("Please Enter an amount: ");
         Scanner scanner = new Scanner(System.in);
         int amount = scanner.nextInt();
         System.out.println(getRemainingAmountIn3Months(amount));
